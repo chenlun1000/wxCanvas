@@ -1,0 +1,7 @@
+<view class="btn" bindtap="clickMe">点我生成海报</view>
+<view wx:if="{{ show }}" class="canvas-box">
+  <canvas style="width: {{ windowW }}px; height: {{ windowH }}px;" canvas-id="firstCanvas"></canvas>
+  <view bindtap="daochu" class="btnSave">点击保存</view>
+</view>
+
+
